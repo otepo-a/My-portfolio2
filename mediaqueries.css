@@ -18,13 +18,13 @@
 }
 
 @media screen and (max-width: 1200px) {
-  #profile{
-    margin-top: 100px;
+  #profile {
+    padding-top: 17vh;
   }
-  #about{
+  #about {
     margin-bottom: 250px;
   }
-  #experience{
+  #experience {
     margin-bottom: 300px;
   }
   #desktop-nav {
@@ -32,6 +32,15 @@
   }
   #hamburger-nav {
     display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  #hamburger-nav.navbar-scrolled {
+    background-color: rgb(159, 159, 159);
   }
   #experience,
   .experience-details-container {
@@ -59,7 +68,7 @@
   .about-containers {
     margin-top: 0;
   }
-  .title{
+  .title {
     margin-bottom: 2rem;
   }
 
@@ -71,7 +80,7 @@
 
 @media screen and (max-width: 600px) {
   #profile {
-    padding-top: 50px;
+    padding-top: 17vh;
   }
   #about {
     margin-bottom: 150px;
@@ -128,7 +137,7 @@
   .title {
     font-size: 2rem;
   }
-  .about-me{
+  .about-me {
     margin-bottom: 2rem;
   }
   .text-container {
@@ -141,5 +150,4 @@
   .nav1 {
     position: fixed;
   }
-
 }

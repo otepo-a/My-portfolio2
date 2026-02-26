@@ -30,21 +30,21 @@ a,
 
 /* DESKTOP NAV */
 
-/* .nav1 {
+.nav1 {
   justify-content: space-around;
   align-items: center;
-  height: 14vh;
+  height: 17vh;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: transparent; 
+  background-color: transparent;
   z-index: 1000;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
 }
 
 .navbar-scrolled {
-  background-color: rgb(159, 159, 159); 
-} */
+  background-color: rgb(159, 159, 159);
+}
 
 nav,
 .nav-links {
@@ -200,6 +200,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  padding-top: 17vh;
 }
 
 .section__pic-container {
@@ -336,7 +337,7 @@ section {
 } */
 
 .article-container {
-padding: 0.9rem;
+  padding: 0.9rem;
 }
 
 .details-container p {
